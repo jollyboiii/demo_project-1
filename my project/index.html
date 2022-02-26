@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home - Jolly</title>
+	<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link href='http://fonts.googleapis.com/css?family=Economica:400,700|Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<style type="text/css">
+		body{
+			box-sizing: border-box;
+
+		}
+		html, body{
+			font-family: "Helvetica neue", Helventica, sans-serif;
+			font-size: 16px;
+			color: #474747;
+		}
+		
+		h1,h2,h3,h4,h5,h6, .title{
+			font-family: "Economica",sans-serif;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin: 0 0 1em;
+		}
+
+		h2{
+			font-size: 1.6rem;
+		}
+		
+		h3{
+			font-size: 1.2rem;
+		}
+		a{
+			color: inherit;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover, a:visited, a:active {
+			text-decoration: none;
+			color: inherit;
+		}		
+
+
+		/*header section css*/
+
+		.page-header{
+			border-top: 5px solid #ebebeb;
+			padding-bottom: 2em;
+		}
+		.fixed-width{
+			width: 940px;
+			
+			margin: 0 auto;
+
+			
+		}
+
+		.page-header > div {
+			position: relative;
+		}
+
+		.page-header .identity {
+			font-family: "Pacifico", cursive;
+			font-size: 3.5em;
+			position: absolute;
+			bottom: 0;
+
+		}
+
+		.page-header nav {
+			float: right;
+			font-family: "Economica", sans-serif ;
+			text-transform: uppercase;
+		}
+
+		.page-header nav li {
+			color: #bfbfbf;
+			float: left;
+			margin-right: 3rem; 
+			padding-top: 3rem;
+		}
+
+		.page-header nav li:last-child {
+			margin-right: 0;
+		}
+		
+		.page-header nav li em{
+			display: block;
+			color: #474747;
+			font-size: 1.6em;
+		}
+
+		/*FOOTER CSS*/
+		.page-footer{
+			background-color: #f4f4f4;
+			color: #9b9b9b;
+			font-size: 1rem;
+			height: 70px;
+		}
+
+		.page-footer .footer-content{
+			padding-top: 15px;
+		}
+
+		.page-footer .copyright{
+			float: left;
+		}
+
+		.page-footer .owner{
+			float: right;
+		}
+		
+
+		/*MAIN VISUAL SECTION*/
+
+
+		
+		.main-visual .fig-caption{
+			background-color: #f6f6f6;
+			padding:  0.5rem 1rem;    
+		}
+		.main-visual .fig-caption >strong{
+			font-size: 1.4rem;
+		}
+
+		p{
+			margin: 0.5rem 0rem  ;
+		 	line-height: 1.3rem;
+		}
+
+		.main-visual, .claim, .portfolio, .page-header{
+			margin-bottom: 3rem;
+		}
+
+
+		/*Claims section css*/
+		.claim{
+			float: left;
+			width: 30%;
+			margin-right: 5%;
+		}
+		.claim > header > i{
+			font-size: 2.5rem;
+			font-weight: bolder;
+			color: #9a9a9a;
+			float: left;
+			width: 25%;
+
+		}
+		.claim > header > h2{
+			float: left;
+			width: 75%; 
+		}
+
+		/*portfolio*/
+		.portfolio h2{
+			background-color: #f6f6f6 ;
+			text-align: center;
+			margin-bottom: 1.5rem;
+		}
+		.portfolio > h2 > span{
+			background-color: white;
+			width: 300px;
+			display: inline-block;
+			line-height: 1;
+		}
+
+		.work{
+			float: left;
+			width: 22%;
+			margin-right: 4%;
+
+		}
+		.work > img{
+			width: 100%;
+		}
+		.work > div{
+			margin-bottom: 1rem;
+		}
+
+	</style>
+</head>
+<body>
+	<header class="page-header">
+		<div class="fixed-width">
+			<em class="identity"><a href="index.html">Jolly</a></em>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Homepage<em>Home</em></a></li>
+					<li><a href="about/About.html">Who are we?<em>About</em></a></li>
+					<li><a href="#">My portfolio<em>Projects</em></a></li>
+					<li><a href="#">leatest news<em>blog</em></a></li>
+					<li><a href="contacts/contact.html">Get in touch<em>contact</em></a></li>
+				</ul>
+			</nav>
+			<div style="clear: both;"></div>
+
+		</div>
+	</header>
+
+	<section class="fixed-width">
+		<!-- main visual section -->
+		<div class="main-visual">
+			<img src="abb.jpg" width="940" height="420px">
+
+			<div class="fig-caption">
+				<strong class="title">Rolling Stones</strong>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				</p>
+			</div>		
+		</div>
+
+
+		<!-- CLAMES  -->
+		<section class="claims">
+			<article class="claim">
+				<header>
+					<i class="fa fa-search"></i>
+					<h2>Check out our latest projects</h2>
+					<div style="clear: both ;"></div>
+					
+				</header>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					
+				</p>
+				<i class="fa fa-angle-double-right"></i>
+				<a href="#" class="title">find out more</a>
+			</article>
+			
+
+			<article class="claim">
+				<header>
+					<i class="fa fa-star"></i>
+					<h2>Guarantee 5 star quality work</h2>
+					<div style="clear: both;"></div>
+				</header>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p> 
+				<i class="fa fa-angle-double-right"></i>
+				<a href="#" class="title">find out more</a>
+			</article>
+			
+
+			<article class="claim" style="margin-right: 0px;">
+				<header>
+					<i class="fab   fa-stack-exchange"></i>
+					<h2>Stay connected by reading the blog</h2>
+					<div style="clear: both;"></div>
+				</header>
+				<p >
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p>
+				<i class="fa fa-angle-double-right"></i>
+				<a href="#" class="title">find out more</a>
+
+			</article>
+
+
+
+			<div style="clear: both;"></div>
+
+
+			
+		</section>
+		
+
+
+
+		<!-- portfolio -->
+		<section class="portfolio">
+			<h2><span>My latest work</span></h2>
+			
+
+			<div>
+				<article class="work">
+					<div>
+
+						<img src="abb.jpg" width="220" height="120">
+					</div>
+			
+			
+					<h3>Valia lorib</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+					<i class="fa fa-angle-double-right"></i>
+					<a href="a" class="title">View Project</a>
+				</article>
+
+				<article class="work">
+					<div>
+
+						<img src="abb.jpg" width="220" height="120">
+					</div>
+			
+			
+					<h3>Valia lorib</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+					<i class="fa fa-angle-double-right"></i>
+					<a href="a" class="title">View Project</a>
+				</article>
+
+				<article class="work">
+					<div>
+
+						<img src="abb.jpg" width="220" height="120">
+					</div>
+			
+			
+					<h3>Valia lorib</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+					<i class="fa fa-angle-double-right"></i>
+					<a href="a" class="title">View Project</a>
+				</article>
+				
+				<article class="work" style="margin-right: 0px;">
+					<div>
+
+						<img src="abb.jpg" width="220" height="120">
+					</div>
+			
+			
+					<h3>Valia lorib</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+					<i class="fa fa-angle-double-right"></i>
+					<a href="a" class="title">View Project</a>
+				</article>
+
+
+				<div style="clear: both;"></div>
+			
+
+			</div>
+				
+			
+
+	</section>
+
+	<footer class="page-footer">
+		<div class="fixed-width footer-content">
+			<span class="copyright">All content &copy; 2021 - Jolly all rights reserved </span>
+			<span class="owner">site developed by Srijan</span>
+			<div style="clear: both;"></div>
+		</div>
+	</footer>
+</body>
+</html>

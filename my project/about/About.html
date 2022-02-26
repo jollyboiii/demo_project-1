@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>About - Jolly</title>
+	
+
+	<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link href='http://fonts.googleapis.com/css?family=Economica:400,700|Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+	<style type="text/css">
+		
+		body{
+			box-sizing: border-box;
+
+		}
+		html, body{
+			font-family: "Helvetica neue", Helventica, sans-serif;
+			font-size: 16px;
+			color: #474747;
+		}
+		
+		h1,h2,h3,h4,h5,h6, .title{
+			font-family: "Economica",sans-serif;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin: 0 0 1em;
+		}
+
+		h2{
+			font-size: 1.6rem;
+		}
+		
+		h3{
+			font-size: 1.2rem;
+		}
+		a{
+			color: inherit;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover, a:visited, a:active {
+			text-decoration: none;
+			color: inherit;
+		}		
+
+
+		/*header section css*/
+
+		.page-header{
+			border-top: 5px solid #ebebeb;
+			padding-bottom: 2em;
+		}
+		.fixed-width{
+			width: 940px;
+			
+			margin: 0 auto;
+
+			
+		}
+
+		.page-header > div {
+			position: relative;
+		}
+
+		.page-header .identity {
+			font-family: "Pacifico", cursive;
+			font-size: 3.5em;
+			position: absolute;
+			bottom: 0;
+
+		}
+
+		.page-header nav {
+			float: right;
+			font-family: "Economica", sans-serif ;
+			text-transform: uppercase;
+		}
+
+		.page-header nav li {
+			color: #bfbfbf;
+			float: left;
+			margin-right: 3rem; 
+			padding-top: 3rem;
+		}
+
+		.page-header nav li:last-child {
+			margin-right: 0;
+		}
+		
+		.page-header nav li em{
+			display: block;
+			color: #474747;
+			font-size: 1.6em;
+		}
+
+
+
+
+
+		/*FOOTER CSS*/
+		.page-footer{
+			position: relative;
+			background-color: #f4f4f4;
+			color: #9b9b9b;
+			font-size: 1rem;
+			height: 70px;
+									
+
+		}
+
+		.page-footer .footer-content{
+			padding-top: 28px;
+			width: 100%;
+		}
+
+		.page-footer .copyright{
+			float: left;
+		}
+
+		.page-footer .owner{
+			float: right;
+		}
+		
+
+		
+		.page-footer{
+			margin-bottom: 0px;
+		}
+
+
+
+
+
+
+		/* MARGIN  */
+		.page-header,{
+			margin-bottom: 3rem;
+		}
+		.introduction, .people{
+			margin-bottom: 4rem;
+			margin-top: 4rem;
+
+		}
+		
+
+
+
+
+		/*About us*/
+		.about-us{
+			
+			padding:  0.5rem 0rem;   
+			margin-bottom: 0.5rem;
+		}
+		
+		.about-us > strong{
+
+			font-size: 1.6rem;
+			font-weight: bold;
+			
+
+
+		}
+
+		.about-us > p{
+			color: #cccccc;
+			font-style: italic;
+			margin: 0.5rem 0rem  ;
+		 	line-height: 1.3rem;
+
+		 }
+
+
+
+
+
+
+		 /*line*/
+		.line{
+			height: 0.5rem;
+			background-color: #dddddd;
+		}
+
+
+
+
+
+		
+		/*  intro */
+
+		.intro{
+			padding:  0.5rem 0rem;   
+			float: left;
+			width: 30%;
+			margin-right: 5%;
+			
+		}
+
+
+		}
+		.intro > header > h2{
+			float: left;
+			width: 75%; 
+			margin-bottom: 1.6rem;
+		}
+
+		.short{
+			color: #cccccc;
+			
+			margin: 0.5rem 0rem  ;
+		 	line-height: 1.3rem;
+		 	margin-bottom: 1.6rem;
+
+		}
+
+
+
+		/*people*/
+		.ppl{
+			float: left;
+			width: 30%;
+			margin-right: 4%;
+			font-family: "Economica";
+		}
+		.ppl > header > .position{	
+			color: #cccccc;
+			float: left;
+			width: 25%;
+			margin-top:0;
+
+		}
+
+		.ppl > header > .number{		
+			color: #282828;
+			float: right;
+			width: 10%;
+			font-weight: bold;
+			margin-top: 3%;
+			margin-right: 20%;
+		}
+
+		.ppl > header > img{
+			width: 30%;
+			
+		}
+		.ppl > header > h2{
+			margin-left: 5%;	
+			float: left;
+			 
+		}
+
+		.ppl > p{
+			margin-left: 5%;
+
+		}
+		
+		.ppl .position{
+			font-size: 1rem;
+			color: #cccccc;
+		}
+
+	</style>
+</head>
+<body>
+	<header class="page-header">
+		<div class="fixed-width">
+			<em class="identity">Jolly</em>
+			
+			<nav>
+				<ul>
+					<li><a href="../index.html">Homepage<em>Home</em></a></li>
+					<li><a href="About.html">Who are we?<em>About</em></a></li>
+					<li><a href="#">My portfolio<em>Projects</em></a></li>
+					<li><a href="#">leatest news<em>blog</em></a></li>
+					<li><a href="../contacts/contact.html">Get in touch<em>contact</em></a></li>
+				</ul>
+			</nav>
+			<div style="clear: both;"></div>
+
+		</div>
+	</header>
+
+	<section class="fixed-width">
+		
+		<!--  ABOUT SECTION -->
+		<div class="about-us">
+			<strong class="title">About us</strong>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+		</div>
+
+		<div class="line">   </div>
+
+
+		<!-- INTRO -->
+		<section class="introduction">
+			<article class="intro">
+				<header>
+					
+					<h2>our philosophy</h2>
+					<div style="clear: both ;"></div>
+					
+				</header>
+				<p class="short">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco
+				</p>
+
+				<p class="long">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+
+				
+			</article>
+			
+
+			<article class="intro" >
+				<header>
+					
+					<h2>our mission</h2>
+					<div style="clear: both ;"></div>
+					
+				</header>
+				<p class="short">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco
+				</p>
+
+				<p class="long">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+
+				
+			</article>
+			
+
+			<article class="intro" style="margin-right: 0px;">
+				<header>
+					
+					<h2>our history</h2>
+					<div style="clear: both ;"></div>
+					
+				</header>
+				<p class="short">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco
+				</p>
+
+				<p class="long">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+
+				
+			</article>
+
+
+			<div style="clear: both;"></div>
+
+		</section>
+		<div class="line">   </div>
+
+
+
+
+	
+		<section class="people">
+			<article class="ppl">
+				<header>
+					<img src="done.JPG" style="width: 300px; height: 220px;">
+					<h2>jane doe<p class="position">ceo</p></h2>
+					<p class="number">1,306.432.0065</p>
+					<div style="clear: both;"></div>
+						
+				</header>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p>
+
+					
+					
+			</article>
+
+			<article class="ppl">
+				<header>
+					<img src="done.JPG" style="width: 300px; height: 220px;" >
+					<h2>john doe<p class="position" >executive administrator</p></h2>
+					<p class="number">1,306.432.0065</p>
+					<div style="clear: both;"></div>
+							
+				</header>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p>
+
+					
+					
+			</article>
+
+			<article class="ppl" style="margin-right: 0;">
+				<header>
+					<img src="done.JPG" style="width: 300px; height: 220px; margin-right: 0;" >
+					<h2>jack doe<p class="position" >retalor</p></h2>
+					<p class="number">1,306.432.0065</p>
+					<div style="clear: both;"></div>
+							
+				</header>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				</p>
+
+					
+					
+			</article>
+			<div style="clear: both;"></div>
+			
+
+		</section>
+	
+	</section>	
+
+	<div class="line" style="margin-bottom: 0;"></div>
+	<footer class="page-footer">
+		<div class="fixed-width">
+			<div class="footer-content">
+				<span class="copyright">All content &copy; 2021 - Jolly all rights reserved </span>
+				<span class="owner">site developed by Srijan</span>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+	</footer>
+
+
+
+</body>
+</html>
